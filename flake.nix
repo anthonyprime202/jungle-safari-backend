@@ -12,7 +12,7 @@
     devShells.${system}.default = pkgs.mkShell {
       buildInputs = with pkgs; [ 
         jq
-        (python312.withPackages(ps: with ps; [
+        (python313.withPackages(ps: with ps; [
           fastapi 
           fastapi-cli 
           uvicorn
@@ -20,6 +20,14 @@
           psycopg2
           python-dotenv
           python-lsp-server
+          fpdf
+          num2words
+          passlib
+          python-jose
+          cryptography
+          pyjwt
+          python-multipart
+          bcrypt
         ]))];
     };
   };
