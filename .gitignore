@@ -1,0 +1,59 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Editor backups and system files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and local database files
+logs/
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# Cache files
+.cache/
+.pytest_cache/
+*.pytest_cache/
+__pypackages__/
+
+# Migrations (if using Alembic)
+migrations/versions/
+
+# FastAPI static & media (if applicable)
+staticfiles/
+media/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker (if using)
+docker-compose.override.yml
+.dockerignore
+
+# Ignore compiled C extensions
+*.so
+
